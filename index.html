@@ -12,14 +12,22 @@
     <header></header>
     <main>
         <div class="jumbotron">
-            <div id="jumboTitle">
+            <div id="jumbo-title">
                 <h1>Am I getting screwed?</h1>
                 <h3>Find out below! Select your job from the dropdown list & enter your salary and zip code.</h3>
             </div>
-            <div id="jobSelect">
-                
+            <div id="job-select">
+                <label for="job-select">Choose your job:</label>
+                    <select name="jobs" id="job-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="marcor">Marketing Coordinator</option>
+                        <option value="medass">Medical Assistant</option>
+                        <option value="webdes">Web Designer</option>
+                        <option value="nursass">Nursing Assistant</option>
+                        <option value="libra">Librarian</option>
+                    </select>               
             </div>
-            <div id="jobInfo"></div>
+            <div id="job-info"></div>
         </div>
     </main>
 </body>
